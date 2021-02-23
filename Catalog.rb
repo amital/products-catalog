@@ -141,20 +141,7 @@ class Category
     return result
   end
 
-  private
-
-  def load(name, jsonFile, hash)
-    if hash.nil?
-      file = File.read(jsonFile)
-      hash = JSON.parse(file)
-    end
-
-    hash = hash[name]
-
-    return hash
-  end
-
-  def get_products(catalog)
+  def get_products(catalog = self)
     if catalog == nil
       return []
     end
@@ -172,5 +159,19 @@ class Category
     }
     return result
   end
+
+  private
+
+  def load(name, jsonFile, hash)
+    if hash.nil?
+      file = File.read(jsonFile)
+      hash = JSON.parse(file)
+    end
+
+    hash = hash[name]
+
+    return hash
+  end
+
 end
 
