@@ -29,5 +29,7 @@ A default catalog is loaded from the file `Categories.json`
 The command `ruby Main.rb Categories.json` will run a sample program that will load the optioanl `Categories.json` and will print a list of sorted Product names and a list of all products + all their attributes.
 
 
-
+## p.s.
 #### I didn't have permisson to install the Heroku CLI on my laptop so the code is only in github repo https://github.com/amital/products-catalog
+
+To sum the expiriance this was verry nice assignment and I enjoyed learrning `Ruby` from scratch...
