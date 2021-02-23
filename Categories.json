@@ -1,0 +1,88 @@
+{
+  "category": {
+    "animal": {
+      "canidae": {
+        "dog": {
+          "buldog": {
+            "buldog1": {
+              "on-stock": 1,
+              "price": 1.1,
+              "sex": "male"
+            },
+            "buldog2": {
+              "on-stock": 3,
+              "price": 1.9,
+              "sex": "female"
+            }
+          },
+          "poodle": {
+            "standard poodle": {},
+            "small poodle": {
+              "small poodle1": {
+                "on-stock": 1,
+                "price": 1.1,
+                "sex": "male"
+              },
+              "small poodle2": {
+                "on-stock": 3,
+                "price": 1.9,
+                "sex": "female"
+              }
+            },
+            "toy poodle": {}
+          },
+          "labrador": {},
+          "greyhound": {}
+        },
+        "wolf": {}
+      }
+    },
+    "plant": {
+      "fruit": {
+        "orange": {
+          "orange5": {
+            "on-stock": 3,
+            "price": 1.9,
+            "size": "small",
+            "switnes": "high"
+          },
+          "orange2": {
+            "on-stock": 5,
+            "price": 2.9,
+            "size": "large",
+            "switnes": "medium"
+          },
+          "orange3": {
+            "on-stock": 13,
+            "price": 1.3,
+            "size": "small",
+            "switnes": "low"
+          }
+        },
+        "apple": {},
+        "banana": {}
+      },
+      "flower": {
+        "narkis": {
+          "mazui": {},
+          "habiza": {
+            "narkis habiza 3": {
+              "on-stock": 5,
+              "price": 2.9,
+              "size": "large",
+              "color": "yelow"
+            },
+            "narkis habiza 1": {
+              "on-stock": 20,
+              "price": 2.5,
+              "size": "large",
+              "color": "white"
+            }
+          }
+        },
+        "kalanit": {},
+        "rakefet": {}
+      }
+    }
+  }
+}
